@@ -1,5 +1,4 @@
 # React Redux App
-[Visit App](https://react-data-dd905.firebaseapp.com)
 ![Project Login](1.png)
 
 Full Stack app. Loopback as backend with MongoDB as Database. React on Frontend with Redux for state management.
