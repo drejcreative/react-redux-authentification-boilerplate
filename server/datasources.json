@@ -1,0 +1,16 @@
+{
+  "db": {
+    "host": "ds046677.mlab.com",
+    "port": 46677,
+    "url": "",
+    "database": "test-database",
+    "password": "qqq1qqq1",
+    "name": "db",
+    "user": "dart",
+    "connector": "mongodb"
+  },
+  "email": {
+    "name": "email",
+    "connector": "mail"
+  }
+}

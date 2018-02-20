@@ -1,0 +1,17 @@
+.input {
+  width: 100%;
+  background: none;
+  color: $white;
+  border: 1px solid $white;
+  padding: 10px 5px;
+  margin-bottom: 15px;
+  border-radius: $radius;
+  transition: all 0.3s ease;
+  &::placeholder {
+    color: $grey;
+  }
+  &:focus {
+    outline: none;
+    @include bg-opacity($grey,0.3);
+  }
+}

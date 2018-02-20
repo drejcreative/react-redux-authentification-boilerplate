@@ -1,0 +1,33 @@
+@import '../../scss/utils';
+
+.AuthForm {
+  width: $width;
+  height: auto;
+  padding: $padding;
+  border-radius: $radius;
+  //background: $main;
+  z-index: 2;
+  // box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  text-align: center;
+  color: $white;
+  h4 {
+    font-size: 30px;
+    padding: 10px 0;
+  }
+  p {
+    font-size: 16px;
+    padding: 10px 0;
+  }
+  footer {
+    margin-top: 10px;
+    font-size: 12px;
+    display: flex;
+    span {
+      cursor: pointer;
+      margin-left: auto;
+      &.active {
+        border-bottom: 1px solid $white;
+      }
+    }
+  }
+}

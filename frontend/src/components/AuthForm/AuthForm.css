@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,900");
+.AuthForm {
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  border-radius: 7px;
+  z-index: 2;
+  text-align: center;
+  color: #FFF; }
+  .AuthForm h4 {
+    font-size: 30px;
+    padding: 10px 0; }
+  .AuthForm p {
+    font-size: 16px;
+    padding: 10px 0; }
+  .AuthForm footer {
+    margin-top: 10px;
+    font-size: 12px;
+    display: flex; }
+    .AuthForm footer span {
+      cursor: pointer;
+      margin-left: auto; }
+      .AuthForm footer span.active {
+        border-bottom: 1px solid #FFF; }
