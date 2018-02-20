@@ -1,7 +1,7 @@
 # React Redux App
 ![Project Login](1.png)
 
-Full Stack app. Loopback as backend with MongoDB as Database. React on Frontend with Redux for state management.
+Full Stack authentification app. it is a boilerplate with option to register and login. Loopback as backend with MongoDB as Database. React on Frontend with Redux for state management.
 
 ## Getting it
 Run `git clone https://github.com/drejcreative/react-redux-authentification-boilerplate.git` in terminal.
